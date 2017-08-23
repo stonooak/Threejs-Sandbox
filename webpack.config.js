@@ -5,6 +5,10 @@ module.exports = {
         path: __dirname + "/dist"
     
     },
+    devtool : "source-map",
+
+    watch: true,
+
     resolve : {
         extensions: [".ts", ",js", ".json"]
     },
